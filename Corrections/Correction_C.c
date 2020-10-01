@@ -83,10 +83,10 @@ int main()
     // by 2 (You may want to learn more about "modulo" (%)). Else, print "(value of i) is odd".
     for (int i = 0; i < 10; i++)
     {
-        if (i % 2)
-            printf("%d is odd\n", i);
-        else
+        if (i % 2==0)
             printf("%d is even\n", i);
+        else
+            printf("%d is odd\n", i);
     }
 
 
